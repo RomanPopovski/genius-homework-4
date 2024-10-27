@@ -1,0 +1,63 @@
+//HEADER
+.nav-links {
+  color: var(--Color-brand-dark);
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+  &:hover {
+    color: var(--Color-brand-light);
+    transform: scale(1.1);
+  }
+}
+
+.menu-icon {
+  fill: var(--Color-brand-dark);
+  transition: transform 1s, fill 1s;
+  &:hover {
+    transform: scale(1.2);
+    fill: var(--Color-brand-light);
+  }
+}
+
+//FOOTER
+.nav-list {
+  &__links {
+    margin-bottom: 16px;
+    color: var(--Color-white);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s, transform 0.3s;
+    &:hover {
+      color: var(--Color-brand-light);
+      transform: scale(1.1);
+    }
+  }
+}
+
+.address-list {
+  &__links {
+    margin-bottom: 16px;
+    color: var(--Color-white);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s, transform 0.3s;
+    &:hover {
+      color: var(--Color-brand-light);
+      transform: scale(1.1);
+    }
+  }
+}
+
+.footer-icons {
+  position: absolute;
+  bottom: -16px;
+  display: flex;
+  gap: 24px;
+  &__icon {
+    fill: var(--Color-white);
+    transition: transform 1s, fill 1s;
+    &:hover {
+      transform: scale(1.2);
+      fill: var(--Color-brand-light);
+    }
+  }
+}

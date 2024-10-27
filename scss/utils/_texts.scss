@@ -1,0 +1,16 @@
+.button-description {
+  max-width: 219px;
+  color: var(--Button-description);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.text-brand-light {
+  color: var(--Color-brand-light);
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.text-brand-dark {
+  color: var(--Color-brand-dark);
+  font-weight: 600;
+}

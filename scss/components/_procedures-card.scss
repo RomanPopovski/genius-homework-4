@@ -1,0 +1,37 @@
+.procedures-card {
+  position: relative;
+  display: flex;
+  height: 456px;
+  width: 344px;
+  border: none;
+  border-radius: 4px 120px;
+  background-image: linear-gradient(
+    180.05deg,
+    rgba(1, 28, 68, 0) 48.53%,
+    rgba(1, 28, 68, 0.725825) 84.61%,
+    #011c44 101.39%
+  );
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(1.05);
+  }
+  &__text {
+    opacity: 0;
+    padding: 372px 77px 32px 115px;
+    text-align: center;
+    transition: opacity 0.7s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 4px 120px;
+    z-index: -1;
+  }
+}

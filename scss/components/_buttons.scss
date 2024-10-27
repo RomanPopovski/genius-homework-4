@@ -1,0 +1,64 @@
+/* Button */
+.button-order {
+  padding: 16px 32px;
+  margin-bottom: 16px;
+  max-width: 219px;
+  background: var(--Color-brand-light);
+  border: 2px solid var(--Color-brand-light);
+  border-radius: 32px;
+  color: var(--Color-white);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.7s, color 0.7s, transform 0.7s;
+  &:hover {
+    background-color: transparent;
+    color: var(--Color-brand-dark);
+    transform: scale(1.1);
+  }
+}
+/* Carousel button */
+
+.carousel-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid var(--Color-black);
+  fill: var(--Color-black);
+  cursor: pointer;
+  transition: background-color 0.7s, fill 0.7s;
+  &:hover {
+    background-color: var(--Color-brand-light);
+    fill: var(--Color-white);
+    border: 1px solid var(--Color-white);
+  }
+  &.forward {
+    rotate: 180deg;
+  }
+}
+// Submit form button
+.form-button {
+  display: block;
+  margin: 0 auto 8px;
+  padding: 16px 32px;
+  width: 100%;
+  background: var(--Color-brand-light);
+  border: 2px solid var(--Color-brand-light);
+  border-radius: 32px;
+  color: var(--Color-white);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.7s, color 0.7s, transform 0.7s;
+
+  &:hover {
+    background-color: transparent;
+    transform: scale(1.1);
+  }
+}

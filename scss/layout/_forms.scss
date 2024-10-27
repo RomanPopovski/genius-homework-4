@@ -1,0 +1,38 @@
+.form {
+  &__text {
+    max-width: 274px;
+    margin: 0 auto 32px;
+    color: var(--Color-white);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+  &__label {
+    display: block;
+  }
+  &__control {
+    padding: 16px 42px;
+    width: 100%;
+    border: 2px solid var(--Color-grey);
+    border-radius: 32px;
+    background-color: transparent;
+    &:focus {
+      background-color: var(--Color-grey);
+      outline: none;
+    }
+    &::placeholder {
+      color: var(--Color-white);
+    }
+    &:focus::placeholder {
+      color: var(--Color-white);
+    }
+  }
+  &__text {
+    max-width: 274px;
+    margin: 0 auto 32px;
+    color: var(--Color-white);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+}

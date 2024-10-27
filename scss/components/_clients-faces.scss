@@ -1,0 +1,49 @@
+.exsample-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  &__star1 {
+    position: absolute;
+    top: 33px;
+    right: -20px;
+    fill: var(--Color-brand-light);
+    rotate: -30deg;
+    animation-name: stars-spin;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+  &__star2 {
+    position: absolute;
+    top: 270px;
+    right: 14px;
+    fill: var(--Color-grey);
+    rotate: 23deg;
+    animation-name: stars-spin;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+  &__star3 {
+    position: absolute;
+    top: 356px;
+    left: 121px;
+    fill: var(--Color-brand-dark);
+    animation-name: stars-spin;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+  &__face-after {
+    padding: 40px 0 0 172px;
+  }
+  &__face-exsample {
+    border: none;
+    border-radius: 50%;
+  }
+}
+@keyframes stars-spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

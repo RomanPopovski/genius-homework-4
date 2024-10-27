@@ -1,0 +1,11 @@
+.section {
+  padding: 48px 0;
+  &__title {
+    font-family: "Play", sans-serif;
+    color: var(--Color-brand-dark);
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.15;
+  }
+}

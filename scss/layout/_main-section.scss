@@ -1,0 +1,21 @@
+.hero-section {
+  position: relative;
+  background-image: url("../images/header-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 90px;
+
+  &__container {
+    max-width: 529px;
+    padding-bottom: 195px;
+  }
+  &__title {
+    margin-bottom: 40px;
+    color: var(--Color-brand-light);
+    text-transform: capitalize;
+    font-family: "Play", sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.8;
+  }
+}

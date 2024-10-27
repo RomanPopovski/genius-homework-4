@@ -1,0 +1,22 @@
+/* Перевтілюйтесь в beauty zone!  section - ABOUT US */
+.about-us-section {
+  padding-top: 0;
+
+  &__container {
+    display: flex;
+    gap: 32px;
+  }
+  &__content {
+    margin-top: 40px;
+    max-width: 710px;
+  }
+  &__title {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  &__text {
+    margin-bottom: 40px;
+    font-size: 22px;
+    line-height: 1.7;
+  }
+}
