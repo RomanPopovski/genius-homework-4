@@ -1,17 +1,29 @@
 /* Як нас знайти section */
 .our-location-section {
+  @media screen and (min-width: $bp-tablet) {
+    padding-bottom: 96px;
+  }
   &__content {
     display: flex;
-    gap: 32px;
+    flex-direction: column-reverse;
+    gap: 24px;
     justify-content: center;
+    padding-bottom: 0;
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+      gap: 32px;
+    }
   }
   &__form {
     max-width: 423px;
-    height: 510px;
     background-image: url("../images/submit-dorm-background.png");
     background-color: var(--Color-brand-dark);
-    padding: 48px 57px;
+    padding: 42px 24px;
     border-radius: 32px;
+    @media screen and (min-width: $bp-tablet) {
+      height: 510px;
+      padding: 48px 57px;
+    }
   }
   &__form-field {
     margin-bottom: 16px;

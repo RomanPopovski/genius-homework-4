@@ -1,7 +1,11 @@
 .exsample-list {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
+  display: none;
+  @media screen and (min-width: $bp-desktop) {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   &__star1 {
     position: absolute;
     top: 33px;

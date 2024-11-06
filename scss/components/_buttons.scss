@@ -1,7 +1,7 @@
 /* Button */
 .button-order {
   padding: 16px 32px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   max-width: 219px;
   background: var(--Color-brand-light);
   border: 2px solid var(--Color-brand-light);
@@ -11,6 +11,9 @@
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.7s, color 0.7s, transform 0.7s;
+  @media screen and (min-width: $bp-desktop) {
+    margin-bottom: 16px;
+  }
   &:hover {
     background-color: transparent;
     color: var(--Color-brand-dark);
@@ -37,7 +40,7 @@
     fill: var(--Color-white);
     border: 1px solid var(--Color-white);
   }
-  &.forward {
+  &.next {
     rotate: 180deg;
   }
 }
@@ -45,7 +48,7 @@
 .form-button {
   display: block;
   margin: 0 auto 8px;
-  padding: 16px 32px;
+  padding: 12.5px 24px;
   width: 100%;
   background: var(--Color-brand-light);
   border: 2px solid var(--Color-brand-light);
@@ -53,10 +56,14 @@
   color: var(--Color-white);
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   transition: background-color 0.7s, color 0.7s, transform 0.7s;
+  @media screen and (min-width: $bp-desktop) {
+    padding: 16px 32px;
 
+    font-size: 18px;
+  }
   &:hover {
     background-color: transparent;
     transform: scale(1.1);

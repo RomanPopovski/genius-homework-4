@@ -1,11 +1,12 @@
+@import "./utils/variables";
 @import "./base/base";
 @import "./utils/utils";
 @import "./utils/texts";
 @import "./utils/fonts";
-@import "./utils/variables";
 @import "./layout/section";
 @import "./layout/header";
 @import "./components/links";
+@import "./layout/mobile-menu";
 @import "./components/buttons";
 @import "./layout/main-section";
 @import "./layout/about-us-section";
@@ -20,3 +21,4 @@
 @import "./layout/modal";
 @import "./layout/footer";
 @import "./components/terms";
+@import "./components/pagination";

@@ -1,3 +1,15 @@
 .google-map {
-  border-radius: 32px;
+  height: 232px;
+  margin: 0 -24px;
+  @media screen and (min-width: $bp-tablet) {
+    margin: auto;
+    width: 420px;
+    height: 500px;
+    border-radius: 32px;
+  }
+  @media screen and (min-width: $bp-desktop) {
+    margin: 0;
+    width: 600px;
+    height: 510px;
+  }
 }

@@ -35,11 +35,15 @@
 
 .address-list {
   &__links {
-    margin-bottom: 16px;
+    margin-bottom: 56px;
     color: var(--Color-white);
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s, transform 0.3s;
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 16px;
+    }
+
     &:hover {
       color: var(--Color-brand-light);
       transform: scale(1.1);
@@ -49,9 +53,12 @@
 
 .footer-icons {
   position: absolute;
-  bottom: -16px;
+  bottom: 36px;
   display: flex;
   gap: 24px;
+  @media screen and (min-width: $bp-tablet) {
+    bottom: -16px;
+  }
   &__icon {
     fill: var(--Color-white);
     transition: transform 1s, fill 1s;
