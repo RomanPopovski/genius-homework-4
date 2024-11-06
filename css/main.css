@@ -892,6 +892,8 @@ address {
 }
 
 .google-map {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   height: 232px;
   margin: 0 -20px;
 }
